@@ -1,0 +1,204 @@
+// ================================== //
+// ============ Variables =========== //
+
+$elementBorderRadius: 3px;
+$elementPadding: 4px;
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$accent: #ff4081;
+$bg: #eff0f2;
+$bg1: #2ECC71;
+$bg2: #3498DB;
+$bg3: #E67E22;
+$bg4: #E74C3C;
+$bg5: #e74c3c;
+$bg6: #c82333;
+$border: #1abc9c;
+$border2: #bd2130;
+$shade1: #34495e;
+$shade2: #e0e3da;
+$shade3: #2ecc71;
+$shade3: #2ecc71;
+
+
+
+
+
+.col-5{
+  width:50%;
+  margin: 0 auto;
+}
+// ======================================== //
+// ========== Calculator Styles =========== //
+
+.calculator {
+  font-weight: 300;
+  padding: $elementPadding;
+  margin-top: 30px;
+  background-color: $bg;
+  border-radius: 6px;
+  border-color: $border;
+  border-style: solid;
+  border-width: 2px;
+
+  h3 {
+    font-size: 33px;
+    line-height: 10px;
+    color: $shade1;
+    font-weight: 700;
+    text-align: center;
+  }
+
+
+    .underweight{
+      background-color:$bg1;
+    }
+    .normal{
+      background-color:$bg2;
+    }
+
+    .overweight{
+      background-color:$bg3;
+    }
+
+    .obese{
+      background-color:$bg4;
+    }
+
+
+  .bmi-result-container {
+    color: $white;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 15px;
+
+    .bmi-result {
+      width: 100%;
+      text-align: center;
+      font-weight: 400;
+
+      .bmi-result-number {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        padding: 4px 0;
+        color: $white;
+      }
+
+      .bmi-result-weight {
+        display: block;
+        width: 100%;
+        padding: 4px 0;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 400;
+        color: $shade2;
+      }
+    }
+  }
+
+  .bmi-input {
+    padding: 20px 4px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+
+    // ================================== //
+// ========== Base Styles =========== //
+
+.button {
+  position: relative;
+  min-width: 88px;
+  width: 150px;
+  margin: 6px auto;
+  border-radius: $elementBorderRadius;
+  color: $white;
+  background-color: $accent;
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+
+  padding: 0 26px;
+  border: none;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 36px;
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  border-radius: 6px;
+  color: $white;
+  outline: 0px;
+  background-color: $bg5;
+  &:hover {
+    color:$white;
+    background-color: $bg6;
+    border-color: $border2;
+    outline: 0px;
+  }
+  &:focus {
+    outline: 0px;
+  }
+}
+
+
+
+      .input-group {
+        width: 100%;
+        margin-bottom: 10px;
+        .label {
+          width: 25%;
+          display: inline-block;
+          line-height: 29px;
+          padding: 2px 10px 2px 0;
+          font-weight: 400;
+          background: none;
+          text-align: right;
+          font-size: 22px;
+          color: $shade1;
+        }
+        .range-container {
+          width: 25%;
+          display: inline-block;
+          padding: 0;
+
+          .form-control,
+          .select2-search input[type="text"] {
+            border: 2px solid $shade2;
+            color: $shade1;
+            font-family: "Lato", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.467;
+            padding: 8px 12px;
+            height: 30px;
+            border-radius: 6px;
+            box-shadow: none;
+            transition: border 0.25s linear, color 0.25s linear,
+              background-color 0.25s linear;
+          }
+          .has-success .form-control,
+          .has-success .select2-search input[type="text"],
+          .select2-search .has-success input[type="text"] {
+            color: $shade3;
+            border-color: $shade3;
+            box-shadow: none;
+          }
+       
+        }
+      .fullwidth{
+       width:40%;
+       font-size:19px;
+      }
+      }
+   
+  }
+}
+
+
+ 
