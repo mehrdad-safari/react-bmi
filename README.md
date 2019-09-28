@@ -1,26 +1,28 @@
 # BMI Calculator React Component 
-This BMI calculator is written with Reactjs to demostrate how to quickly create a reactjs project with basic UI and simple interactions.
-
+This BMI calculator is an isolated component that you can easily drop it in your project and just call it.
 
 ## How To Install
-Get in the program folder(/react-bmi), and type following command
+Get in the program folder(/react-bmi), and type following commands
 
 ```
 npm install
 npm start
 open http://localhost:3000
 ```
+and then call it like :
+
+```
+<Bmi />
+```
+## Screenshot
+![screenshot](https://github.com/mehrdad-safari/react-bmi/blob/master/public/screenshot.PNG)
 
 ## App React Features:
+* react v16.9
+* react hooks
+* ES 6
+* Sass
 
-* Utilization of components when appropriate
-* Using React Hooks
-* Loading and Using Sass
-* Writing HTML with JSX
-* Function Base Components
-* Prop assignment and the passing of dynamic data
-* Utilizing Helper functions
-* Assignment of 'state' to dynamically render page elements
 
 ## ES6 Specific Features:
 
@@ -29,9 +31,7 @@ open http://localhost:3000
 * Destructuring assignment
  
 
-## Planned Features:
+##  To Do Features
 * Testing with Jest
 
-## Screenshot
-![screenshot](https://github.com/mehrdad-safari/react-bmi/blob/master/public/screenshot.PNG)
 
