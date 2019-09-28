@@ -2,6 +2,15 @@
 This BMI calculator is written with Reactjs to demostrate how to quickly create a reactjs project with basic UI and simple interactions.
 
 
+## How To Install
+Get in the program folder(/react-bmi), and type following command
+
+```
+npm install
+npm start
+open http://localhost:3000
+```
+
 ## App React Features:
 
 * Utilization of components when appropriate
@@ -23,4 +32,6 @@ This BMI calculator is written with Reactjs to demostrate how to quickly create 
 ## Planned Features:
 * Testing with Jest
 
+## Screenshot
+![screenshot](https://github.com/mehrdad-safari/react-bmi/master/public/screenshot.png)
 
