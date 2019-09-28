@@ -33,5 +33,5 @@ open http://localhost:3000
 * Testing with Jest
 
 ## Screenshot
-![screenshot](https://github.com/mehrdad-safari/react-bmi/master/public/screenshot.png)
+![screenshot](https://github.com/mehrdad-safari/react-bmi/blob/master/public/screenshot.PNG)
 
